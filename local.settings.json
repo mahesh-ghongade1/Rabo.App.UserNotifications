@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "ConnectionString": "Server=tcp:assignment-00.database.windows.net,1433;Initial Catalog=assignmentdb;Persist Security Info=False;User ID=dbadmin;Password=Test#123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "LogTableName": "ExecutionLog",
+    "UserNotificationTableName": "UserNotification",
+    "StoredProcedureName": "GetModifiedRecords",
+    "ServiceBusConnectionString": "Endpoint=sb://assignment-00.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=6AEzDM1EfNtzSes0j2MAhzvZaXAiDUQBv+ASbDRYftI=",
+    "ServiceBusQueueName": "usernotificationqueue"
+  }
+}
